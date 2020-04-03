@@ -25,7 +25,7 @@ const menu = css`
   flex: 1;
   text-align: right;
 `;
-const icon = css`
+const search = css`
   border: none;
   outline: none;
   cursor: pointer;
@@ -84,15 +84,15 @@ class Header extends Component {
       <CustomLink to="/blog" css={link}>
         Blog
       </CustomLink>
-      {/* <CustomLink to="/project" css={link}>
-        Project
-      </CustomLink> */}
       <CustomLink to="/categories" css={link}>
         Categories
       </CustomLink>
-      <CustomLink to="/tags" css={link}>
-        Tags
+      <CustomLink to="/project" css={link}>
+        Project
       </CustomLink>
+      {/* <CustomLink to="/tags" css={link}>
+        Tags
+      </CustomLink> */}
       <CustomLink to="/about" css={link}>
         About
       </CustomLink>
@@ -118,9 +118,9 @@ class Header extends Component {
                 <div css={headerOrFooter}>{this.renderLinks()}</div>
                 <div />
               </div>
-              <button css={icon} onClick={this.handleOpenSearch}>
+              <button css={search} onClick={this.handleOpenSearch}>
                 <span role="img" aria-label="search">
-                  🔍
+                  검색
                 </span>
               </button>
               <Search open={openSearch} handleClose={this.handleCloseSearch} />

@@ -1,14 +1,14 @@
 const { createFilePath } = require('gatsby-source-filesystem');
-const algoliasearch = require('algoliasearch');
+// const algoliasearch = require('algoliasearch');
 const path = require('path');
 const _ = require('lodash');
 require('dotenv').config({
   path: `.env.${process.env.NODE_ENV}`,
 });
 
-const { GATSBY_ALGOLIA_APP_ID, GATSBY_ALGOLIA_ADMIN_KEY } = process.env;
-const algoClient = algoliasearch(GATSBY_ALGOLIA_APP_ID, GATSBY_ALGOLIA_ADMIN_KEY);
-const algoIndex = algoClient.initIndex('gatsby_site');
+// const { GATSBY_ALGOLIA_APP_ID, GATSBY_ALGOLIA_ADMIN_KEY } = process.env;
+// const algoClient = algoliasearch(GATSBY_ALGOLIA_APP_ID, GATSBY_ALGOLIA_ADMIN_KEY);
+// const algoIndex = algoClient.initIndex('gatsby_site');
 
 exports.onCreateNode = ({ node, getNode, actions }) => {
   const { createNodeField } = actions;
@@ -143,7 +143,7 @@ exports.createPages = ({ graphql, actions }) => {
         });
       });
       /* create search index */
-      algoIndex.saveObjects(searchObjects);
+      // algoIndex.saveObjects(searchObjects);
       res();
     });
   });

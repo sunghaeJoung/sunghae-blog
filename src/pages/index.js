@@ -42,12 +42,11 @@ export default ({ data }) => {
         <div css={profile}>
           <div css={mainTitle}>
             <Avatar css={avatar} />
-            <h1>Godsenal's site</h1>
+            <h1>sunghae's site</h1>
           </div>
           <div>
             <p>
-              안녕하세요. 이태희입니다. <br />
-              공부하며 배우는 것들을 작성 중입니다.
+              안녕하세요 정성혜입니다. <br />
             </p>
           </div>
         </div>
