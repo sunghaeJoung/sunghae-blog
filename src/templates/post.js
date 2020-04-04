@@ -1,7 +1,7 @@
 import React from 'react';
 import { graphql, Link } from 'gatsby';
 import { css } from '@emotion/core';
-import { Banner, Content, Disqus, HEAD, Layout, PostInfo, Profile, Title } from '../components';
+import { Banner, Content, HEAD, Layout, PostInfo, Profile, Title } from '../components';
 
 const prevOrNext = css`
   display: flex;
@@ -42,7 +42,7 @@ const Template = ({ data, pageContext, location }) => {
       <h4 css={listContainer}>
         <Link to="/blog">» List</Link>
       </h4>
-      <Profile />
+      {/* <Profile /> */}
       <div css={prevOrNext}>
         {previous && (
           <Link css={prevPost} to={previous.fields.slug}>
@@ -55,7 +55,7 @@ const Template = ({ data, pageContext, location }) => {
           </Link>
         )}
       </div>
-      <Disqus id={id} url={location.href} />
+      {/* <Disqus id={id} url={location.href} /> */}
     </Layout>
   );
 };

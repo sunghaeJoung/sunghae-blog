@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: 'Godsenal',
-    description: '안녕하세요. 이태희입니다. 공부하며 배우는 것들을 작성 중입니다.',
-    url: 'https://godsenal.com',
+    title: 'Sunghae',
+    description: '안녕하세요.',
+    url: 'https://sunghae.com',
     favicon: '/images/favicon.ico',
     image: '/images/deadpool.jpg',
     repository: 'https://github.com/Godsenal/gatsby-site',

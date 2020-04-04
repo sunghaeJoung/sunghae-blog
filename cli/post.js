@@ -19,7 +19,7 @@ inquirer.registerPrompt(
   require("inquirer-autocomplete-prompt")
 );
 
-const writeFile = promisify(fs.writeFile);
+// const writeFile = promisify(fs.writeFile);
 const readdir = promisify(fs.readdir);
 
 const postPath = path.resolve(process.cwd(), "src", "pages", "posts");
@@ -132,10 +132,10 @@ const createMatters = matters => {
   return matter.stringify("", matters);
 };
 const createPost = async (title, matters) => {
-  const titleWithBar = title.replace(/ /gi, "-");
-  const createPath = `${postPath}/${titleWithBar}.md`;
-  await writeFile(createPath, matters);
-  return createPath;
+  // const titleWithBar = title.replace(/ /gi, "-");
+  // const createPath = `${postPath}/${titleWithBar}.md`;
+  // await writeFile(createPath, matters);
+  // return createPath;
 };
 
 const startCommand = async (titleList, categoryList, tagList) => {

@@ -31,6 +31,9 @@ const linkContainer = css`
   margin: 2rem 0;
   text-align: center;
 `;
+const name = css`
+margin-left: 10px;
+`
 
 export default ({ data }) => {
   const { edges: postEdges } = data.posts;
@@ -42,11 +45,11 @@ export default ({ data }) => {
         <div css={profile}>
           <div css={mainTitle}>
             <Avatar css={avatar} />
-            <h1>sunghae's site</h1>
+            <h1 css={name}>_sunghae__</h1>
           </div>
           <div>
             <p>
-              안녕하세요 정성혜입니다. <br />
+            front-end developer 정성혜입니다.
             </p>
           </div>
         </div>

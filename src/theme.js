@@ -5,7 +5,7 @@ import { ThemeProvider as EmotionThemeProvider } from 'emotion-theming';
 const baseTheme = {
   background: '#fefefe',
   bodyColor: '#2f3e54',
-  primaryColor: '#444494',
+  primaryColor: '#10316b',
   contrastColor: '#fefefe',
 };
 

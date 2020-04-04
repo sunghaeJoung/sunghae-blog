@@ -46,7 +46,7 @@ const Pagination = ({ currentPage, totalPage, onPageChange }) => {
 
   return (
     <Container>
-      <Button onClick={handleClick(1)}>{`|<`}</Button>
+      {/* <Button onClick={handleClick(1)}>{`|<`}</Button> */}
       <Button onClick={handleClick(currentPage - 1)}>{`<`}</Button>
       {pages.map(page => (
         <Button key={page} onClick={handleClick(page)} isActive={page === currentPage}>
@@ -54,7 +54,7 @@ const Pagination = ({ currentPage, totalPage, onPageChange }) => {
         </Button>
       ))}
       <Button onClick={handleClick(currentPage + 1)}>{`>`}</Button>
-      <Button onClick={handleClick(totalPage)}>{`>|`}</Button>
+      {/* <Button onClick={handleClick(totalPage)}>{`>|`}</Button> */}
     </Container>
   );
 };

@@ -1,24 +1,46 @@
 import React from 'react';
+import { css } from '@emotion/core';
 import { graphql } from 'gatsby';
-import { HEAD, Title, Layout, Profile, Content } from '../components';
+import { Avatar, HEAD, Title, Layout,  Content } from '../components';
+
+const avatar = css`
+  width: 15rem;
+  height: 15rem;
+margin: 0 auto 40px;
+display: flex;
+justify-content: center;
+`
+const container = css`
+margin-top: 20px;
+font-weight: 500;
+`
+const link = css`
+margin-left: 20px;
+`
 
 export default ({ data, location }) => {
-  const { repository } = data.site.siteMetadata;
   return (
     <Layout>
       <HEAD pathname={location.pathname} />
       <Title h2="About" />
       <Content>
+      <Avatar css={avatar}/>
         <p style={{ textAlign: 'center' }}>
-          안녕하세요. Godsenal 입니다.
+        안녕하세요. front-end developer 정성혜입니다.
           <br />
-          열심히 공부하고 개발하며 얻는 것들을 이 사이트에 정리하고 있습니다.
+          2019년 12월부터 개발자라는 꿈에 한 발씩 딛기 시작했습니다.
           <br />
-          주로 javasript, typescript, react, nodejs, graphql과 관련된 내용들입니다.
-          <br />이 사이트는 <a href="https://www.gatsbyjs.org/">Gatsby</a>를 통해 만들었으며, 코드는{' '}
-          <a href={repository}>여기</a>서 보실 수 있습니다.
+          현재는 동료들에게 같이 일하고 싶은 개발자를 목표로 매일 달려가고 있습니다.
+          <br />    
+          <div css={container}>
+          <a  href="ppl870988@gmail.com">
+              » Mail
+         </a>
+         <a css={link} href="https://github.com/sunghaeJoung">
+              » Github
+            </a>
+            </div>
         </p>
-        <Profile />
       </Content>
     </Layout>
   );

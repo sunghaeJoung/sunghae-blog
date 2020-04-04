@@ -15,8 +15,8 @@ const PostInfo = ({ timeToRead, date, tags }) => (
       </div>
     )}
     <span css={info}>{date}</span>
-    {` · `}
-    <span css={info}>{timeToRead} 분</span>
+    {/* {` · `} */}
+    {/* <span css={info}>{timeToRead} 분</span> */}
   </>
 );
 
