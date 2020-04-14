@@ -25,7 +25,11 @@ common base를 나의 마스터로 pull 받아온 뒤 작업하는동안 마스�
 
 ↑ rebase를 하게되면 이렇게 깔끔한 history를 유지할 수 있게 된다.
 
-🔎 rebase 방법
+</br>
+
+---
+
+**🔎 rebase 방법**
 
 1. 작업한 branch에서 **git add & git commit**까지 진행
 2. master로 이동 후 **git pull origin master**로 master를 최신화
@@ -37,7 +41,9 @@ common base를 나의 마스터로 pull 받아온 뒤 작업하는동안 마스�
 6. **git push origin (branch name) -f**
    squash를 해서 push하게 되면 깃헙에서는 다른 branch라고 생각하기 때문에 평소 하던대로 push하면 *master를 최신화한 다음 push*하라는 메시지가 뜬다. 그래서 **-f(force)** 명령어를 추가해서 강제로 push해야한다. ❗️-force는 무조건 공유가 안된 branch 즉, 내 branch에서만 해야한다 ❗️
 
-📌 깃헙에 pr 날렸는데 conflict 생긴 경우
+</br>
+
+**📌 깃헙에 pr 날렸는데 conflict 생긴 경우**
 
 1. branch가 아닌 master에서 **git pull origin master**
 2. branch로 돌아와서 **git rebase -i master**

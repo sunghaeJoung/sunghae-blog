@@ -21,6 +21,7 @@ tags:
 https://medium.com/@ItsMeDannyZ/build-an-image-slider-with-react-es6-264368de68e4
 
 **🔎 Hooks**
+</br>
 class형에서는 state를 한번에 관리했었는데, hooks에서는 *useState*를 통해 state를 1개씩 관리한다. 그리고 this를 사용하지 않아도 되고 다른 컴포넌트에서 넘어오는 props값은 함수에서 인자를 받는 것 처럼 받아서 사용하면 된다. (arr = props)
 
 `const [(state), (state를 설정하는 함수)] = useState(state의 기본 값)`
@@ -33,6 +34,9 @@ const StepThree = arr => {
 
   const data = arr.data;
 ```
+
+</br>
+</br>
 
 **📷 이미지 슬라이더 구현**
 
@@ -78,6 +82,8 @@ const Sliders = styled.div`
 `;
 ```
 
+</br>
+
 sliders의 부모인 slider frame에 overflow: hidden을 주면 현재 보여지는 이미지 외의 이미지들은 화면에 안보이게 된다.
 
 ---
@@ -100,6 +106,8 @@ sliders의 부모인 slider frame에 overflow: hidden을 주면 현재 보여지
 <RightButton />
 
 ```
+
+</br>
 
 이제 onClick 이벤트를 통해 클릭할때마다 state값을 변경시켜서 이미지를 이동시키려고 한다.
 
@@ -139,6 +147,8 @@ const Sliders = styled.div`
   }
 `;
 ```
+
+</br>
 
 버튼을 클릭할 때마다 width값이 바뀌고 sliders의 css에 translate를 통해 이미지의 x축을 바꾸고 transition을 줘서 부드럽게 이동할 수 있도록 했다.
 

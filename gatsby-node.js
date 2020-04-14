@@ -24,6 +24,7 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
 };
 exports.createPages = ({ graphql, actions }) => {
   const { createPage } = actions;
+  // node에서 여러개의 경로를 하나의 경로로 합쳐주는 메서드(path.resolve)
   const postTemplate = path.resolve('src/templates/post.js');
   const postListTemplate = path.resolve('src/templates/postList.js');
   const postTagListTemplate = path.resolve('src/templates/postTagList.js');

@@ -17,6 +17,7 @@ banner: /images/harry.png
 1차 때와 다른점이 있다면.. 판타지 소설을 원작으로 한 영화인 만큼 아기자기하고 다양한 이벤트 및 효과들이 많이 있었다. 그리고 1차때는 SCSS를 사용했다면 이번에는 *styled-component*를 사용한다. style-component에 관한 글은 추후에 쓸 예정이다!
 
 이주동안 내가 작업할 내용은
+
 ![](https://images.velog.io/images/ppl8709/post/8fddf8b3-4827-4c86-b503-ac025310b21b/image.png)
 
 **로그인 페이지 ( + 구글 소셜로그인)**

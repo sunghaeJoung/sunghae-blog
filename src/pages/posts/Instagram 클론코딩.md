@@ -16,17 +16,26 @@ tags:
 3. 메인페이지 event 구동
 ```
 
+</br>
+
 #### 완성본
 
 **로그인페이지**
+</br>
+
 ![image.png](https://images.velog.io/post-images/ppl8709/78fdb850-494b-11ea-831f-9f89e374eb27/image.png)
 
 ![image.png](https://images.velog.io/post-images/ppl8709/00d68670-494d-11ea-bba6-bface0b0977e/image.png)
 
 event : 아이디와 비밀번호를 각각 1개 이상씩 입력했을 때 로그인 버튼의 `opacity : 1;`이 되고 버튼 활성화
 
+</br>
+</br>
+
 **메인페이지 피드**
 ![image.png](https://images.velog.io/post-images/ppl8709/b409afd0-494b-11ea-bba6-bface0b0977e/image.png)
+
+</br>
 
 **메인페이지 댓글**
 

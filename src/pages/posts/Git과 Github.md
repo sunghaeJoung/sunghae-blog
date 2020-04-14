@@ -88,22 +88,50 @@ master branch에서 만들어진 branch를 `feature branch`라고 한다. 우리
 ### 기본적인 Git Command
 
 **git init**
+</br>
 소스코드들이 있는 디렉토리를 git repository로 만들기 위해 사용하는 명령어로 git repo로 만들어야 gti 버전으로 관리가 가능하다.
+</br>
+
 **git add**
+</br>
 수정된 파일들을 staged로 옮기고 싶을 때 사용하는 명령어이고 git repo에 새롭게 추가된 파일을 staged로 옮길 때, 사용한다. 새롭게 추가된 파일은 `untracked`이라고도 한다.
+</br>
+
 **git commit**
+</br>
 staged 상태인 파일들을 commit할 때 사용하는 명령어이다.
+</br>
+
 **git diff**
+</br>
 staged 되기 전 즉, modified 상태인 파일들의 수정사항을 알아보고 싶을 떄 사용하는 명령어이다.
+</br>
+
 **git status**
+</br>
 현재 상태를 보여주는 명령어로, modified, staged된 파일의 전체적인 상황을 보여준다.
+</br>
+
 **git log**
+</br>
 지금까지 commit된 내역을 보여준다.
+</br>
+
 **git rm**
+</br>
 원하는 파일을 git repo에서 지워준다.
+</br>
+
 **git mv**
+</br>
 파일을 git repo 상에서 이동시키거나 rename할 때, 사용한다.
+</br>
+
 **git branch**
+</br>
 branch를 생성해준다.
+</br>
+
 **git checkout**
+</br>
 branch에서 이동할 때 사용한다.

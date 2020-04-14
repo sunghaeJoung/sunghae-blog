@@ -10,7 +10,7 @@ tags:
 
 포트폴리오를 만들기위해 Create-React-App을 다시 설치하고 sass를 설정하는 법을 적어보려고 한다!
 
-📌**리액트 초기세팅**
+**📌 리액트 초기세팅**
 
 1. CRA를 설치하고 싶은 파일로 이동 후 터미널에 아래와 같이 입력한다. portfolio를 쓰는 부분은 파일명이기 때문에 원하는 파일이름으로 작성 뒤 설치해주면 된다.
 
@@ -42,7 +42,11 @@ ReactDOM.render(<Routes />, document.getElementById('root'));
 ✂️serviceWorker.unregister();✂️
 ```
 
-📌**SASS 설정**
+</br>
+</br>
+
+**📌 SASS 설정**
+</br>
 sass는 css를 효율적으로 작성할 수 있도록 도와주는 프로그램으로 기존의 css의 단점을 보완한다. 예를들어, 코드중복을 줄이거나 자주쓰는 스타일값을 변수를 사용하여 저장할 수 있다.
 
 sass를 설정하는 법은 터미널에서 아래의 명령어를 입력하여 설치한 뒤 모든 css파일의 이름을 css->scss로 변경하면 된다.

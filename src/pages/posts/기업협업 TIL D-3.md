@@ -36,4 +36,5 @@ ShareFacebook: function(data) {
 
 ```
 
+<br />
 자바스크립트 기반의 설명들을 보면 html의 head에 script태그로 넣어줘야하는 부분이 있는데, vue에서 구현할 땐 버튼과 클릭이벤트로 실행될 함수에 공유 url만 작성했더니 간단하게 구현이 가능했다.

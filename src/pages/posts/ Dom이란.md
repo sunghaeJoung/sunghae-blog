@@ -14,12 +14,16 @@ tags:
 
 > Document Object Model로 텍스트로만 구성된 HTML 문서를 객체 모델(Dom tree)로 변환한다. 자바스크립트는 DOM을 통해 웹페이지에 접근하고 문서를 제어하여 동적인 웹페이지를 만들 수 있다.
 
+</br>
+
 ### 2. DOM Tree
 
 > HTML의 tag와 element를 객체 트리로 구조화시킨 모델이다.
 > 최상위의 문서 노드는 DOM tree에 접근하기 위한 시작점으로 하위의 요소, 어트리뷰트 등에 접근하기 위해선 문서 노드를 통해야 한다.
 
 ![image.png](https://images.velog.io/post-images/ppl8709/8de072b0-442f-11ea-80bd-63538db7ad6e/image.png)
+
+</br>
 
 ### 3. 요소 접근 방법
 
@@ -33,6 +37,8 @@ tags:
 - **document.getElementsByClassName(class)**
   공백으로 구분하여 여러개의 class를 지정할 수 있고 배열로 리턴된다. (class가 한개여도 배열형태로 리턴.!)
 
+</br>
+
 ### 4. 어트리뷰트 접근 및 수정
 
 - **className**
@@ -43,6 +49,8 @@ tags:
   add, remove, item, toggle 등의 메소드를 제공한다.
   `.classList.add('')`
 
+</br>
+
 ### 5. HTML 콘텐츠 조작
 
 - **innerText**
@@ -50,6 +58,8 @@ tags:
   `.innerText='';`
 
 - **innerHTML**
+
+</br>
 
 ### 6. DOM 조작
 
@@ -63,7 +73,5 @@ tags:
   `createElement`로 생성한 요소를 마지막 자식 요소로 DOM 트리에 제거한다.
 
 ![image.png](https://images.velog.io/post-images/ppl8709/c5d529a0-4654-11ea-b0c7-11ba93b0f761/image.png)
-
----
 
 참조 : https://poiemaweb.com/js-dom

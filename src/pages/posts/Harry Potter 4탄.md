@@ -31,7 +31,15 @@ import { Address } from '../../../config';
 fetch(`${Address}/user/email-check`);
 ```
 
+</br>
+
 config.js를 사용하면 나중에 백엔드 api가 바꼈을 때, config파일에 들어가서 수정해주만 해주면 끝나기 때문에 api를 관리하기에 아주 효율적이다.
+
+</br>
+
+---
+
+</br>
 
 **📝 utils.js로 자주 사용하는 코드 관리**
 
@@ -55,6 +63,8 @@ checkPw = () => {
   }
 };
 ```
+
+</br>
 
 utils.js는 config.js와 같은 곳에 위치하고 보통 반복적인 코드를 이곳에 정의해서 사용한다! config파일과 마찬가지로 변수에 정의한 뒤, 필요한 곳에 import해서 사용하면 된다.
 
@@ -81,7 +91,13 @@ checkPw = () => {
 };
 ```
 
-**👣import 파일순서 **
+</br>
+
+---
+
+</br>
+
+**👣import 파일순서**
 
 보통 회사에서는 혼자 개발을 하는 것이 아니라 여러명의 개발자가 함께 개발을 하기 때문에 누가 어느 부분을 맡아서 작업한지 모를 정도로 코드 작성 스타일을 똑같이 맞춰야 한다! 그 중 하나로 import 파일 순서가 있는데 보통 아래의 순서로 작성한다고 한다.
 
@@ -101,13 +117,18 @@ import TypeTwo from './Type/TypeTwo';
 import TypeThree from './Type/TypeThree';
 ```
 
+</br>
+
 **import 파일 경로 줄이기**
+</br>
 Route.js import된 파일의 경로를 보면 폴더안에 파일 한개만 있는 경우 아래처럼 같은 이름의 경로가 중볻되서 작성된다.
 
 ```jsx
 import Quizzes from './Page/Quizzes/Quizzes';
 import QuizList from './Page/Quizzes/QuizList';
 ```
+
+</br>
 
 중복되는 부분을 index.js를 통해 줄일 수 있다!
 Quizzes라는 이름의 폴더 안에 Quizzes.js라는 파일 한개만 존재한다면 index.js 파일을 추가해서 Quizzes.js안에 있는 내용을 복사 + 붙여넣기 한 후 Quizzes.js 파일을 삭제 !
