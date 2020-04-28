@@ -83,9 +83,9 @@ class Header extends Component {
       <CustomLink to="/categories" css={link}>
         Categories
       </CustomLink>
-      <CustomLink to="/project" css={link}>
+      {/* <CustomLink to="/project" css={link}>
         Project
-      </CustomLink>
+      </CustomLink> */}
       <CustomLink to="/tags" css={link}>
         Tags
       </CustomLink>
