@@ -1,6 +1,6 @@
 ---
 title: Instagram 클론코딩
-date: '2020년 2월 7일'
+date: '2020년 02월 07일'
 categories:
   - react
 tags:

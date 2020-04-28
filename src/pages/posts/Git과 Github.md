@@ -1,6 +1,6 @@
 ---
 title: Git과 Github
-date: '2020년 2월 12일'
+date: '2020년 02월 12일'
 categories:
   - dev
 tags:

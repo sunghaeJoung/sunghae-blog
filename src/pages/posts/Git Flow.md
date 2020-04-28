@@ -1,6 +1,6 @@
 ---
 title: Git Flow
-date: '2020년 3월 23일'
+date: '2020년 03월 23일'
 categories:
   - dev
 tags:

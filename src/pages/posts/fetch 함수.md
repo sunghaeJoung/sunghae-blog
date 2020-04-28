@@ -1,6 +1,6 @@
 ---
 title: fetch 함수
-date: '2020년 2월 23일'
+date: '2020년 02월 23일'
 categories:
   - react
 tags:

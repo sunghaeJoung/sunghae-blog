@@ -1,6 +1,6 @@
 ---
 title: (2차 프로젝트) Harry Potter 1탄
-date: '2020년 3월 15일'
+date: '2020년 03월 15일'
 categories:
   - project
 tags:

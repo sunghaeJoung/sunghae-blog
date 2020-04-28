@@ -1,6 +1,6 @@
 ---
 title: arrow function, setInterval
-date: '2020년 2월 10일'
+date: '2020년 02월 10일'
 categories:
   - react
 tags:

@@ -1,6 +1,6 @@
 ---
 title: Enemy Rain 게임 만들기
-date: '2020년 2월 9일'
+date: '2020년 02월 09일'
 categories:
   - react
 tags:

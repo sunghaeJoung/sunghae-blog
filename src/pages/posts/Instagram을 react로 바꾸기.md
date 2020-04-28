@@ -1,6 +1,6 @@
 ---
 title: Instagram을 react로 바꾸기
-date: '2020년 2월 17일'
+date: '2020년 02월 17일'
 tags:
   - react
 categories:

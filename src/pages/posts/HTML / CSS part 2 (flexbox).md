@@ -1,6 +1,6 @@
 ---
 title: HTML / CSS part 2 (flexbox)
-date: '2020년 1월 29일'
+date: '2020년 01월 29일'
 categories:
   - html/css
 tags:

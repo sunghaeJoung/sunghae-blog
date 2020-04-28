@@ -38,6 +38,6 @@ export {
   ProjectList,
   Search,
   SimplePost,
-  Tags,
   Title,
+  Tags
 };

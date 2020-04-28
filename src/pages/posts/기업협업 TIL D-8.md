@@ -1,6 +1,6 @@
 ---
 title: 기업협업 TIL D-8
-date: '2020년 3월 30일'
+date: '2020년 03월 30일'
 categories:
   - vue
 tags:

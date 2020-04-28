@@ -5,10 +5,10 @@ module.exports = {
     url: 'https://sunghae.com',
     favicon: '/images/favicon.ico',
     image: '/images/deadpool.jpg',
-    repository: 'https://github.com/Godsenal/gatsby-site',
+    repository: 'https://github.com/sunghaeJoung/gatsby-site',
     profile: {
-      email: 'mailto:tmqps78@gmail.com',
-      github: 'https://github.com/Godsenal',
+      email: 'ppl870988@gmail.com',
+      github: 'https://github.com/sunghaeJoung',
     },
   },
   plugins: [

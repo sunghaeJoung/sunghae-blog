@@ -1,6 +1,6 @@
 ---
 title: Git Rebase & Squash
-date: '2020년 3월 15일'
+date: '2020년 03월 11일'
 categories:
   - dev
 tags:

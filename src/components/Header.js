@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { css } from '@emotion/core';
 import { graphql, StaticQuery } from 'gatsby';
 import { screen } from '../constants';
-import { CustomLink, Search } from '.';
+import { CustomLink} from '.';
 
 const header = css`
   width: 90%;
@@ -25,11 +25,7 @@ const menu = css`
   flex: 1;
   text-align: right;
 `;
-// const search = css`
-//   border: none;
-//   outline: none;
-//   cursor: pointer;
-// `;
+
 const link = css`
   margin-right: 20px;
 `;
@@ -90,16 +86,15 @@ class Header extends Component {
       <CustomLink to="/project" css={link}>
         Project
       </CustomLink>
-      {/* <CustomLink to="/tags" css={link}>
+      <CustomLink to="/tags" css={link}>
         Tags
-      </CustomLink> */}
+      </CustomLink>
       <CustomLink to="/about" css={link}>
         About
       </CustomLink>
     </>
   );
   render() {
-    const { openSearch } = this.state;
     return (
       <StaticQuery
         query={query}
@@ -118,12 +113,6 @@ class Header extends Component {
                 <div css={headerOrFooter}>{this.renderLinks()}</div>
                 <div />
               </div>
-              {/* <button css={search} onClick={this.handleOpenSearch}>
-                <span role="img" aria-label="search">
-                  🔍
-                </span>
-              </button>
-              <Search open={openSearch} handleClose={this.handleCloseSearch} /> */}
             </div>
           );
         }}

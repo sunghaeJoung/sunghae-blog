@@ -1,6 +1,6 @@
 ---
 title: Dom이란 ?
-date: '2020년 2월 3일'
+date: '2020년 02월 03일'
 categories:
   - dev
 tags:

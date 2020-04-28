@@ -35,8 +35,7 @@ const name = css`
 margin-left: 10px;
 `
 
-// data가 뿌려지는 블로그글들 PostList에 edges라는 props로 전달 
-// 근데 data는 어디서 나오는거지..?
+
 export default ({ data }) => {
   console.log(data)
   const { edges: postEdges } = data.posts;

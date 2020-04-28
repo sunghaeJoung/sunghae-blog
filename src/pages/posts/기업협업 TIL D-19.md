@@ -1,6 +1,6 @@
 ---
 title: 기업협업 TIL D-19
-date: '2020년 4월 10일'
+date: '2020년 04월 10일'
 categories:
   - vue
 tags:

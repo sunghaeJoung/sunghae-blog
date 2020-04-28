@@ -1,6 +1,6 @@
 ---
 title: 'WEB의 동작 원리'
-date: '2020년 2월 9일'
+date: '2020년 02월 09일'
 tags:
   - dev
 categories:

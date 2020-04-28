@@ -1,6 +1,6 @@
 ---
 title: 리액트 초기세팅과 SASS 설정하기
-date: '2020년 2월 18일'
+date: '2020년 02월 18일'
 categories:
   - react
 tags:
