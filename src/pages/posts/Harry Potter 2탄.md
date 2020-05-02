@@ -1,5 +1,5 @@
 ---
-title: (2차 프로젝트) Harry Potter 2탄
+title: Harry Potter 2탄
 date: '2020년 03월 16일'
 categories:
   - project
