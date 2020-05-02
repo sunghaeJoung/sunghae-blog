@@ -1,5 +1,5 @@
 ---
-title: (2차 프로젝트) Harry Potter 후기
+title: Harry Potter 후기
 date: '2020년 03월 20일'
 categories:
   - project

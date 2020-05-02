@@ -5,7 +5,7 @@ categories:
   - react
 tags:
   - react
-    - styled-component
+  - styled-component
 ---
 
 **👀 styled-component란?**
