@@ -50,9 +50,9 @@ export default ({ data }) => {
             <h1 css={name}>_sunghae__</h1>
           </div>
           <div>
-            <p>
-            안녕하세요 정성혜입니다.
-            </p>
+            안녕하세요. 프론트앤드 개발자 정성혜입니다.
+            <br />
+          개발하며 배우고 느낀 것에 대해 기록하는 공간입니다.
           </div>
         </div>
       </div>
