@@ -5,7 +5,7 @@ categories:
   - project
 tags:
   - project
-  - bf test
+  - bf-test
 ---
 
 ![bftest](/images/bftest.png)
