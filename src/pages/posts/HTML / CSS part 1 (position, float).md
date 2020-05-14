@@ -2,7 +2,7 @@
 title: HTML / CSS part 1 (position, float)
 date: '2020년 01월 08일'
 categories:
-  - html/css
+  - dev
 tags:
   - css
 ---

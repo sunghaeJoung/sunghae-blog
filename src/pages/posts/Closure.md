@@ -1,5 +1,5 @@
 ---
-title: Closure란 무엇일까
+title: Closure란?
 date: '2020년 05월 13일'
 categories:
   - dev

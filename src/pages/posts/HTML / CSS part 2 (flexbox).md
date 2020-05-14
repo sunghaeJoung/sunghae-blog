@@ -2,7 +2,7 @@
 title: HTML / CSS part 2 (flexbox)
 date: '2020년 01월 29일'
 categories:
-  - html/css
+  - dev
 tags:
   - css
 ---
