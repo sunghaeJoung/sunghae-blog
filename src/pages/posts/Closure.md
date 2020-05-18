@@ -1,5 +1,5 @@
 ---
-title: Closure란?
+title: Closure
 date: '2020년 05월 13일'
 categories:
   - dev
