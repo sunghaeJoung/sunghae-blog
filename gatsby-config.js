@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: 'Sunghae',
     description: '안녕하세요.',
-    url: 'https://sunghae.com',
+    url: 'https://sunghae.netlify.app/',
     favicon: '/images/favicon.ico',
     image: '/images/deadpool.jpg',
     repository: 'https://github.com/sunghaeJoung/gatsby-site',
@@ -29,7 +29,7 @@ module.exports = {
         // Enables "Add to Homescreen" prompt and disables browser UI (including back button)
         // see https://developers.google.com/web/fundamentals/web-app-manifest/#display
         display: `minimal-ui`,
-        icon: `src/images/icon.png`, // This path is relative to the root of the site.
+        icon: `src/images/hae.png`, // This path is relative to the root of the site.
         include_favicon: true, // Include favicon
       },
     },

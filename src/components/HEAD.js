@@ -1,10 +1,10 @@
 import React from 'react';
 import { Helmet } from 'react-helmet';
 import { StaticQuery, graphql } from 'gatsby';
-import favicon16 from '../images/favicon16.png';
-import favicon32 from '../images/favicon32.png';
-import favicon64 from '../images/favicon64.png';
-import favicon128 from '../images/favicon128.png';
+import favicon16 from '../images/hae.png';
+import favicon32 from '../images/hae.png';
+import favicon64 from '../images/hae.png';
+import favicon128 from '../images/hae.png';
 
 const query = graphql`
   query Head {
