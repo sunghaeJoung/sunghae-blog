@@ -4,7 +4,7 @@ import { screen } from '../constants';
 
 const content = css`
   margin-top: 2rem;
-  font-size: 1.05rem;
+  /* font-size: 1.05rem; */
   @media screen and (max-width: ${screen.small}) {
     font-size: 0.9rem;
   }
