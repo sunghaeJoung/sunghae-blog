@@ -1,6 +1,6 @@
 ---
 title: Closure
-date: '2020년 05월 13일'
+date: '2020년 05월 18일'
 categories:
   - dev
 tags:

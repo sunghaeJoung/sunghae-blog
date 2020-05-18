@@ -1,6 +1,6 @@
 ---
 title: BF-TEST 리덕스 적용
-date: '2020년 05월 18일'
+date: '2020년 05월 13일'
 categories:
   - project
 tags:
