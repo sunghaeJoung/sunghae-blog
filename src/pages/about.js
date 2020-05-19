@@ -26,12 +26,12 @@ export default ({ data, location }) => {
       <Content>
       <Avatar css={avatar}/>
         <p style={{ textAlign: 'center' }}>
-        동료와 협업하는 과정에서 서로를 이해하며 성장하는 정성혜입니다. 
-            <br />
-            2019년 12월부터 개발자라는 꿈에 한 발씩 딛기 시작해 
-            <br />
-            현재는 동료들에게 같이 일하고 싶은 개발자를 목표로 매일 달려가고 있습니다.
-          <br />    
+        현실에 안주하기보단 성장하길 원하고 혼자보단 함께 일할 때 즐거움을 느낍니다. 
+        <br />
+        동료 개발자들에게 함께 일하고 싶은 개발자가 되는 것을 목표로 
+        <br />
+        매일 달려가고 있는 주니어 개발자, 정성혜입니다. 
+        <br />    
           <div css={container}>
           <a  href="ppl870988@gmail.com">
               » Mail
