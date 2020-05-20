@@ -6,7 +6,7 @@ categories:
 tags:
   - project
   - bf-test
-    - wecode
+  - wecode
 ---
 
 #### 반응형 구현
