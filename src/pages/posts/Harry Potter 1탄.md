@@ -5,7 +5,6 @@ categories:
   - project
 tags:
   - project
-  - clone coding
   - harry potter
 
 banner: /images/harry.png

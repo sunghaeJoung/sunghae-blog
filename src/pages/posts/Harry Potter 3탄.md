@@ -5,7 +5,6 @@ categories:
   - project
 tags:
   - project
-  - clone coding
   - harry potter
 ---
 
@@ -18,6 +17,7 @@ tags:
 3개 각각이 레이아웃이 다르고 마지막 step3에 있는 이미지 슬라이더는 라이브러리를 사용하지 않았고 이 페이지만 class형이 아닌 hook를 사용해서 구현했다.
 
 기본적인 내용은 ↓ 아래 블로그를 참고했다 ↓
+<br>
 https://medium.com/@ItsMeDannyZ/build-an-image-slider-with-react-es6-264368de68e4
 
 **🔎 Hooks**

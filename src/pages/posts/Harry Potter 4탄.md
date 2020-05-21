@@ -5,7 +5,6 @@ categories:
   - project
 tags:
   - project
-  - clone coding
   - harry potter
 ---
 
