@@ -6,7 +6,6 @@ categories:
 tags:
   - project
   - bf-test
-  - wecode
 ---
 
 ![](https://images.velog.io/images/ppl8709/post/c7199502-dab3-4892-a2a8-87d074c627c8/main.png)

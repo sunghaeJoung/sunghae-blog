@@ -6,7 +6,6 @@ categories:
 tags:
   - closure
   - hooks
-  - wecode
 ---
 
 ### Closure 란?

@@ -6,7 +6,6 @@ categories:
 tags:
   - project
   - bf-test
-  - wecode
 ---
 
 ![bftest](/images/bftest.png)
