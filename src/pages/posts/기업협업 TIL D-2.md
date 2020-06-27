@@ -2,7 +2,7 @@
 title: 기업협업 TIL D-2
 date: '2020년 03월 24일'
 categories:
-  - vue
+  - project
 tags:
   - 기업협업
   - vue
