@@ -1,3 +1,3 @@
 export const screen = {
-  small: 760
+  small: 860
 };
