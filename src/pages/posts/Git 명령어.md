@@ -33,7 +33,7 @@ Git은 파일을 세가지 상태로 관리한다.
 - staging area: 수정이 끝나고 commit 전 파일들이 위치하는 곳으로 수정한 파일을 임시저장한다고 생각하면 된다. index라고도 한다.
 - .git directory 컴퓨터의 로컬 환경에 위치한 저장소로 remote repo로 push하기 전 파일들이 위치한다.
 
-### file의 라이프사이클 
+#### file의 라이프사이클 
 
 ![](https://git-scm.com/book/en/v2/images/lifecycle.png);
 
@@ -42,6 +42,11 @@ Git은 파일을 세가지 상태로 관리한다.
 
 - 파일 HEAD 바꾸기
 - 이미 푸쉬한 커밋 메시지 수정하기
+  **git rebase 사용**
+  1. master 또는 develop 브랜치를 최신화 한다.
+  2. 작업중인 브랜치로 돌아와 rebase 명령어를 입력한다.
+  3. 수정하고 싶은 커밋을 `pick -> edit`로 변경후 `git commit --amend`해서 수정한다.
+  4. git rebase --continue를 하고 force push를 한다. 
 
 
 
