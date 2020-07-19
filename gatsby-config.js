@@ -4,7 +4,7 @@ module.exports = {
     description: '안녕하세요.',
     url: 'https://sunghae.netlify.app/',
     favicon: '/images/favicon.ico',
-    image: '/images/deadpool.jpg',
+    image: '/images/hae.jpg',
     repository: 'https://github.com/sunghaeJoung/gatsby-site',
     profile: {
       email: 'ppl870988@gmail.com',
