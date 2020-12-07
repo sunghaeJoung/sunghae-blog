@@ -2,7 +2,7 @@
 title: Grid
 date: '2020년 06월 25일'
 categories:
-  - css
+  - dev
 tags:
   - css
 ---

@@ -2,7 +2,7 @@
 title: Styled Component
 date: '2020년 03월 10일'
 categories:
-  - css
+  - dev
 tags:
   - css
   - styled-component

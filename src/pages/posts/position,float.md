@@ -2,7 +2,7 @@
 title: position / float
 date: '2020년 01월 08일'
 categories:
-  - css
+  - dev
 tags:
   - css
 ---

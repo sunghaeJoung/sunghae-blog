@@ -2,7 +2,7 @@
 title: flexbox
 date: '2020년 01월 29일'
 categories:
-  - css
+  - dev
 tags:
   - css
 ---
